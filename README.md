@@ -12,7 +12,7 @@ The barcode data is not the TC number itself, which poses a challenge for anyone
 
 Convert from the barcode to the TC number:
 ```python
-from walmart-convert-barcode import getTC
+from walmart_convert_barcode import getTC
 
 barcodeData = "G$XCMEQE8$/AOH/D"
 # this is an example of what scanning a barcode will yield
