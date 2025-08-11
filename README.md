@@ -24,7 +24,7 @@ tcNumber = getTC(barcodeData)   # input must be 16-digit str
 
 Convert the TC number to a barcode:
 ```python
-from walmart-convert-barcode import getBarcode
+from walmart_convert_barcode import getBarcode
 
 tcNumber = "3375305354916651614568"
 # this is an example of a real-life TC number - these vary in length
